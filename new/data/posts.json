@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Outstanding PLE Results — 2024 Class Shines",
+    "category": "Academic News",
+    "excerpt": "We are proud to announce that our P7 class achieved remarkable results in this year's Primary Leaving Examinations, with 92% of learners passing in Division One and Two.",
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80",
+    "date": "February 12, 2025"
+  },
+  {
+    "id": 2,
+    "title": "Annual Sports Day — Celebrating Young Champions",
+    "category": "Events",
+    "excerpt": "Last Friday, our school compound was alive with energy as learners, parents, and teachers came together for our much-anticipated Annual Sports Day. What a day of fun and achievement!",
+    "image": "https://images.unsplash.com/photo-1526676317768-d9b14f15615a?w=600&q=80",
+    "date": "March 3, 2025"
+  },
+  {
+    "id": 3,
+    "title": "New Science Laboratory Officially Opened",
+    "category": "Infrastructure",
+    "excerpt": "St. Lawrence School is thrilled to welcome a brand-new, fully-equipped science laboratory. This facility will give our learners hands-on experience in science experiments from an early age.",
+    "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&q=80",
+    "date": "March 20, 2025"
+  },
+  {
+    "id": 4,
+    "title": "Reading Week — Building a Culture of Learning",
+    "category": "Academics",
+    "excerpt": "During our Reading Week, every class put down their textbooks and enjoyed stories, poems, and creative writing. The enthusiasm shown by our learners was truly inspiring.",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80",
+    "date": "April 7, 2025"
+  },
+  {
+    "id": 5,
+    "title": "Tree Planting Drive — We Go Green!",
+    "category": "Community",
+    "excerpt": "In line with our commitment to environmental stewardship, St. Lawrence School partnered with local organisations to plant over 200 trees across our school grounds and the wider community.",
+    "image": "https://images.unsplash.com/photo-1542601906897-ecd82e4f7af4?w=600&q=80",
+    "date": "April 22, 2025"
+  },
+  {
+    "id": 6,
+    "title": "Term Two Registration Now Open",
+    "category": "Announcements",
+    "excerpt": "Term Two 2025 registration is officially open. We encourage all parents to complete enrollment early to secure your child's place. Bursaries are available for qualifying families.",
+    "image": "https://images.unsplash.com/photo-1581726707445-75cbe4efc586?w=600&q=80",
+    "date": "May 1, 2025"
+  }
+]

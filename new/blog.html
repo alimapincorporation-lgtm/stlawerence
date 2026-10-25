@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Latest news, announcements, and updates from St. Lawrence Nursery and Primary School.">
+  <title>News & Updates | St. Lawrence Nursery & Primary School</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <div class="navbar-logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div class="navbar-brand-text">
+          <span class="navbar-brand-name">St. Lawrence School</span>
+          <span class="navbar-brand-sub">Kyamunara, Masindi</span>
+        </div>
+      </a>
+      <div class="navbar-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a><a href="gallery.html">Gallery</a>
+        <a href="blog.html" class="active">News</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="navbar-cta"><a href="admissions.html" class="btn btn-outline btn-sm">Apply Now</a></div>
+      <button class="navbar-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="navbar-mobile">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a><a href="gallery.html">Gallery</a><a href="blog.html">News</a>
+    <a href="contact.html">Contact</a><a href="admissions.html" class="btn btn-primary">Apply Now</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title">News & Updates</h1>
+      <p class="page-hero-subtitle">Stay up to date with what's happening at St. Lawrence School.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>News</span></div>
+    </div>
+  </section>
+
+  <!-- BLOG POSTS -->
+  <section class="section blog-section">
+    <div class="container">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:3rem;" class="reveal">
+        <div>
+          <div class="section-label">School Updates</div>
+          <h2 class="section-title">Latest from <span>St. Lawrence</span></h2>
+        </div>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+          <button class="gallery-filter-btn active" onclick="filterPosts('all', this)">All</button>
+          <button class="gallery-filter-btn" onclick="filterPosts('academic', this)">Academic</button>
+          <button class="gallery-filter-btn" onclick="filterPosts('events', this)">Events</button>
+          <button class="gallery-filter-btn" onclick="filterPosts('announcements', this)">Announcements</button>
+        </div>
+      </div>
+
+      <div class="blog-grid" id="blogPosts">
+        <!-- Hardcoded posts for reliability without server -->
+        <article class="blog-card reveal reveal-delay-1" data-category="academic">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80" alt="PLE Results" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-card-category">Academic News</span>
+            <h3 class="blog-card-title">Outstanding PLE Results — 2024 Class Shines</h3>
+            <p class="blog-card-excerpt">We are proud to announce that our P7 class achieved remarkable results in this year's Primary Leaving Examinations, with 92% of learners passing in Division One and Two.</p>
+            <div class="blog-card-meta">
+              <span>February 12, 2025</span>
+              <a href="#" class="blog-card-read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal-delay-2" data-category="events">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1526676317768-d9b14f15615a?w=600&q=80" alt="Sports Day" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-card-category">Events</span>
+            <h3 class="blog-card-title">Annual Sports Day — Celebrating Young Champions</h3>
+            <p class="blog-card-excerpt">Last Friday, our school compound was alive with energy as learners, parents, and teachers came together for our much-anticipated Annual Sports Day.</p>
+            <div class="blog-card-meta">
+              <span>March 3, 2025</span>
+              <a href="#" class="blog-card-read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal-delay-3" data-category="academic">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&q=80" alt="Science Lab" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-card-category">Infrastructure</span>
+            <h3 class="blog-card-title">New Science Laboratory Officially Opened</h3>
+            <p class="blog-card-excerpt">St. Lawrence School is thrilled to welcome a brand-new, fully-equipped science laboratory giving our learners hands-on experience from an early age.</p>
+            <div class="blog-card-meta">
+              <span>March 20, 2025</span>
+              <a href="#" class="blog-card-read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal-delay-1" data-category="events">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80" alt="Reading Week" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-card-category">Academics</span>
+            <h3 class="blog-card-title">Reading Week — Building a Culture of Learning</h3>
+            <p class="blog-card-excerpt">During our Reading Week, every class put down their textbooks and enjoyed stories, poems, and creative writing. The enthusiasm shown by our learners was truly inspiring.</p>
+            <div class="blog-card-meta">
+              <span>April 7, 2025</span>
+              <a href="#" class="blog-card-read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal-delay-2" data-category="events">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1542601906897-ecd82e4f7af4?w=600&q=80" alt="Tree Planting" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-card-category">Community</span>
+            <h3 class="blog-card-title">Tree Planting Drive — We Go Green!</h3>
+            <p class="blog-card-excerpt">In line with our commitment to environmental stewardship, St. Lawrence School partnered with local organisations to plant over 200 trees across our school grounds.</p>
+            <div class="blog-card-meta">
+              <span>April 22, 2025</span>
+              <a href="#" class="blog-card-read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal reveal-delay-3" data-category="announcements">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1581726707445-75cbe4efc586?w=600&q=80" alt="Registration" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <span class="blog-card-category">Announcements</span>
+            <h3 class="blog-card-title">Term Two Registration Now Open</h3>
+            <p class="blog-card-excerpt">Term Two 2025 registration is officially open. We encourage all parents to complete enrollment early to secure your child's place. Bursaries are available for qualifying families.</p>
+            <div class="blog-card-meta">
+              <span>May 1, 2025</span>
+              <a href="#" class="blog-card-read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2 class="cta-banner-title">Stay Connected with Our School</h2>
+      <p class="cta-banner-subtitle">Follow us on social media or WhatsApp us for the latest updates.</p>
+      <div class="cta-banner-actions">
+        <a href="admissions.html" class="btn btn-primary btn-lg">Enroll Now</a>
+        <a href="contact.html" class="btn btn-outline btn-lg">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <div class="footer-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+            <div><div class="footer-brand-name">St. Lawrence School</div><div class="footer-brand-sub">Nursery & Primary</div></div>
+          </div>
+          <p class="footer-tagline">Nurturing curious minds and strong character in Kyamunara, Masindi District, Uganda.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li><li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li><li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">News</a></li><li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Kyamunara, Masindi District</span></div>
+          <div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.92-.88a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg><span>+256 700 000 000</span></div>
+          <div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>info@stlawrenceschool.ac.ug</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-motto">"Train up a child in the way he should go." — Proverbs 22:6</div>
+        <div class="footer-copyright">© 2025 St. Lawrence Nursery & Primary School. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="whatsapp-float">
+    <div class="whatsapp-tooltip">Chat with us</div>
+    <a href="https://wa.me/256700000000" class="whatsapp-btn" target="_blank" rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    function filterPosts(category, btn) {
+      document.querySelectorAll('.gallery-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.blog-card').forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (category === 'all' || cat === category) {
+          card.style.display = 'flex';
+          card.style.flexDirection = 'column';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

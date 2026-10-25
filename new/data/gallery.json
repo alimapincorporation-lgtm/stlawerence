@@ -1,0 +1,14 @@
+[
+  { "id": 1, "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80", "category": "classes", "caption": "Morning lessons in progress" },
+  { "id": 2, "url": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80", "category": "events", "caption": "Annual Reading Week" },
+  { "id": 3, "url": "https://images.unsplash.com/photo-1526676317768-d9b14f15615a?w=600&q=80", "category": "sports", "caption": "Sports Day celebrations" },
+  { "id": 4, "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80", "category": "graduation", "caption": "P7 Graduation Ceremony 2024" },
+  { "id": 5, "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80", "category": "sports", "caption": "Football finals" },
+  { "id": 6, "url": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=600&q=80", "category": "classes", "caption": "Science experiments" },
+  { "id": 7, "url": "https://images.unsplash.com/photo-1542601906897-ecd82e4f7af4?w=600&q=80", "category": "events", "caption": "Tree Planting Day" },
+  { "id": 8, "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80", "category": "classes", "caption": "Creative art sessions" },
+  { "id": 9, "url": "https://images.unsplash.com/photo-1581726707445-75cbe4efc586?w=600&q=80", "category": "graduation", "caption": "Prize Giving Day 2024" },
+  { "id": 10, "url": "https://images.unsplash.com/photo-1613896527026-f195d5c818ed?w=600&q=80", "category": "events", "caption": "Cultural Day festivities" },
+  { "id": 11, "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80", "category": "classes", "caption": "Mathematics class" },
+  { "id": 12, "url": "https://images.unsplash.com/photo-1540479859555-17af45c78602?w=600&q=80", "category": "sports", "caption": "Athletics competition" }
+]
